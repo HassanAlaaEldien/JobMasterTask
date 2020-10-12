@@ -1,6 +1,30 @@
 # JobMaster Task
 
+## Requirements:
 
+I am using PDFTOText package and behind the scenes this package leverages pdftotext. You can verify if the binary installed on your system by issueing this command:
+```bash
+which pdftotext
+```
+If it is installed it will return the path to the binary.
+
+To install the binary you can use this command on Ubuntu or Debian:
+
+```bash
+apt-get install poppler-utils
+```
+
+On a mac you can install the binary using brew
+
+```bash
+brew install poppler
+```
+
+If you're on RedHat or CentOS use this:
+
+```bash
+yum install poppler-utils
+```
 
 ## How to build the project:
 
